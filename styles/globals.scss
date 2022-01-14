@@ -24,3 +24,31 @@ a {
 * {
   box-sizing: border-box;
 }
+
+//info: headings
+.heading-1 {
+  font-family: $font-secondary;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+//margins
+
+.mb-small {
+  margin-bottom: 1.5rem;
+}
+.mb-small-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-medium {
+  margin-bottom: 3rem;
+}
+
+.mb-large {
+  margin-bottom: 4.5rem;
+}
+
+.bg-clr {
+  background-color: #002629;
+}
