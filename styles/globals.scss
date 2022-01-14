@@ -25,6 +25,21 @@ a {
   box-sizing: border-box;
 }
 
+.logo {
+  font-size: 2rem;
+  background-image: linear-gradient(
+    to bottom,
+    $color-tertiary-dark,
+    $color-primary,
+    $color-secondary,
+    $color-tertiary
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 1px;
+}
+
 //info: headings
 .heading-1 {
   font-family: $font-secondary;

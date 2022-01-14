@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Signin from "../components/Signin";
 import Signup from "../components/Signup";
+import WelcomeNote from "../components/WelcomeNote";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
   return (
     <div className={styles.register}>
       <section className={styles["register-container"]}>
-        <h1 className="mb-large">liftApp</h1>
+        <h1 className="mb-large logo">LiftApp</h1>
         {login ? <Signin /> : <Signup />}
 
         {login ? (
@@ -26,9 +27,7 @@ export default function Home() {
           </h2>
         )}
       </section>
-      <section className={styles["about"]}>
-        {/* <h1>Community Story Section coming soon</h1> */}
-      </section>
+      <WelcomeNote />
     </div>
   );
 }
